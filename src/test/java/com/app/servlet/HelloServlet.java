@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    // doGetメソッドをオーバーライドしています。
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
         PrintWriter out = res.getWriter();

@@ -15,6 +15,20 @@ public class Bootstrap {
     }
 }
 
+public class HelloServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+
+        PrintWriter out = res.getWriter();
+        out.println("<HTML>");
+        out.println("<BODY>");
+        out.println("<H3>Hello World!</H3>");
+        out.println("</BODY>");
+        out.println("</HTML>");
+
+    }
+}
 ```
 
 2.Access the url you set.
