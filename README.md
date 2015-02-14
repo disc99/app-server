@@ -3,7 +3,7 @@ app-server is minimal embedded web server and servlet engine.
 
 ## How to use
 
-1. Create AppServer start class.
+1.Create AppServer start class.
 
 ```java
 public class Bootstrap {
@@ -17,7 +17,7 @@ public class Bootstrap {
 
 ```
 
-2. Access the url you set.
+2.Access the url you set.
 
 ## Requirements
 
